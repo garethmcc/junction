@@ -1,0 +1,28 @@
+{
+  "name": "junction-services-framework",
+  "version": "0.1.0",
+  "description": "A framework for development of FaaS services such as those running over AWS Lambda, Azure Functions and Google Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gareth McCumskey",
+  "license": "ISC",
+  "bin": {
+    "junction": "./dist/index.js"
+  },
+  "dependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/commander": "^2.9.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.22",
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "serverless": "^1.17.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.4.2"
+  }
+}
